@@ -1,0 +1,123 @@
+body {
+    font-family:'Amita';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:rgb(241, 203, 84);
+
+    color: #333;
+}
+
+div {
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    border: 5px solid transparent;
+    padding:15px;
+    border-radius:50px;
+    text-decoration:underline;
+    color: white;
+    background-color:rgb(145, 73, 0);
+}
+input[type="date"] {
+    padding: 10px;
+    font-size:20px;
+    border: 1px solid rgb(145, 73, 0);
+    color:white;
+    border-radius: 50px;
+    width: 250px;
+    background-color:rgb(145, 73, 0);
+    font-family:'Amita';
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+    margin-right: 10px;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    color:white;
+    border-color:rgb(145, 73, 0);
+    font-family: Agbalumo;
+    box-shadow: 0px 2px 6px rgba(0, 123, 255, 0.3);
+    background-color:rgb(145, 73, 0);
+}
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    font-family:'Amita' !important;
+    cursor: pointer;
+    color:white;
+    transition: background 0.3s ease, transform 0.2s ease;
+    background-color:rgb(145, 73, 0);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#showModel {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color:rgb(145, 73, 0);
+    border: 5px double white;
+    border-radius:60px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 30px;
+    color:white;
+    margin-bottom: 10px;
+    text-decoration:underline;
+}
+
+.card p {
+    font-size: 20px;
+    text-align: left !important;
+    color:white;
+    margin-bottom: 15px;
+    /* border: 1px solid white; */
+    /* border-bottom: 5px double white ; */
+    
+}
+.card p span{
+    font-size: 28px;
+    font-weight: 800;
+    color:rgb(247, 180, 0);
+    border-bottom: 3px solid white;
+    margin-left: 50px;
+    align-items: end !important;
+    justify-content: flex-end !important;
+}
+.card .card-detail {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
